@@ -64,7 +64,7 @@ function Home() {
             <button className="primary-button">Commander</button>
           </div>
           <div className="hero-right">
-            <img src={heroPic} className="hero-pic" alt="hero picture" />
+            <img src={heroPic} className="hero-pic" />
           </div>
         </div>
         {/* <!-- end Hero Content --> */}
@@ -76,19 +76,19 @@ function Home() {
         <h2 className="header-text">Comment placer ma commande</h2>
         <div className="information-container">
           <div className="image-plus-text">
-            <img src={info1} alt="step1" />
+            <img src={info1} />
             <p>This is some subtext under an illustration or image</p>
           </div>
           <div className="image-plus-text">
-            <img src={info2} alt="step2" />
+            <img src={info2} />
             <p>This is some subtext under an illustration or image</p>
           </div>
           <div className="image-plus-text">
-            <img src={info3} alt="step3" />
+            <img src={info3} />
             <p>This is some subtext under an illustration or image</p>
           </div>
           <div className="image-plus-text">
-            <img src={info4} alt="step4" />
+            <img src={info4} />
             <p>This is some subtext under an illustration or image</p>
           </div>
         </div>
