@@ -38,6 +38,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-right: 50px;
+    
 }
 
 .header-links > a {
@@ -184,11 +185,11 @@ body {
 }
 
 .call-to-action-left > h3 {
-    color: #E5E7EB
+    color: white
 }
 
 .call-to-action-left > p {
-    color: #E5E7EB;
+    color: white;
 }
 
 .footer {

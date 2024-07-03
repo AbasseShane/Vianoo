@@ -15,9 +15,42 @@ function Home() {
         <div className="header-banner">
           <div className="header-logo">VIANOO</div>
           <div className="header-links">
-            <a href="#">A propos</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contact</a>
+            <button
+              style={{
+                background: "none",
+                border: "none",
+                padding: "0",
+                font: "inherit",
+                cursor: "pointer",
+                color: "white",
+              }}
+            >
+              A propos
+            </button>
+            <button
+              style={{
+                background: "none",
+                border: "none",
+                padding: "0",
+                font: "inherit",
+                cursor: "pointer",
+                color: "white",
+              }}
+            >
+              FAQ
+            </button>
+            <button
+              style={{
+                background: "none",
+                border: "none",
+                padding: "0",
+                font: "inherit",
+                cursor: "pointer",
+                color: "white",
+              }}
+            >
+              Contact
+            </button>
           </div>
         </div>
         {/* <!-- Hero Content --> */}
@@ -40,24 +73,22 @@ function Home() {
 
       {/* <!-- Content--> */}
       <div className="content">
-        <h2 className="header-text">
-          Guide or Steps of how to place an order?
-        </h2>
+        <h2 className="header-text">Comment placer ma commande</h2>
         <div className="information-container">
           <div className="image-plus-text">
-            <img src={info1} alt="info1" />
+            <img src={info1} alt="step1" />
             <p>This is some subtext under an illustration or image</p>
           </div>
           <div className="image-plus-text">
-            <img src={info2} alt="info2" />
+            <img src={info2} alt="step2" />
             <p>This is some subtext under an illustration or image</p>
           </div>
           <div className="image-plus-text">
-            <img src={info3} alt="info3" />
+            <img src={info3} alt="step3" />
             <p>This is some subtext under an illustration or image</p>
           </div>
           <div className="image-plus-text">
-            <img src={info4} alt="info4" />
+            <img src={info4} alt="step4" />
             <p>This is some subtext under an illustration or image</p>
           </div>
         </div>
